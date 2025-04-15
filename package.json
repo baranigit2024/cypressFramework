@@ -1,0 +1,38 @@
+{
+  "name": "cypresframework",
+  "version": "1.0.0",
+  "description": "POM FRAMEWORK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baranigit2024/cypressFramework.git"
+  },
+  "keywords": [
+    "CYPRESS"
+  ],
+  "author": "Barani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baranigit2024/cypressFramework/issues"
+  },
+  "homepage": "https://github.com/baranigit2024/cypressFramework#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "@faker-js/faker": "^9.7.0",
+    "babel-loader": "^10.0.0",
+    "cypress": "^10.1.0",
+    "json-loader": "^0.5.7",
+    "webpack": "^5.98.0"
+  },
+  "compilerOptions": {
+    "lib": [
+      "ES2018"
+    ],
+    "target": "ES2018"
+  }
+}
