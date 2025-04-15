@@ -1,4 +1,4 @@
-name: Regression git statEnd-to-end tests
+name: End-to-end tests
 on: push
 jobs:
   cypress-run:
@@ -10,10 +10,11 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
-         command: npm run ttestFaker
+         with:
+         command: npm run testFaker
 
-  cypress-run:
+  
+  cypress-run2:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -22,5 +23,8 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
+         with:
          command: npm run testToolTip
+
+
+        
