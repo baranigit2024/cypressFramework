@@ -11,8 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-         command: npm run test-faker
-
+         command: npm run ttestFaker
 
   ToolTip cypress-run:
     runs-on: ubuntu-24.04
@@ -24,4 +23,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-         command: npm run test-ToolTip
+         command: npm run testToolTip

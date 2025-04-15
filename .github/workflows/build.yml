@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: Regression git statEnd-to-end tests
 on: push
 jobs:
   cypress-run:
