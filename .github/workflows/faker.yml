@@ -13,7 +13,6 @@ jobs:
         with:
          command: npm run testfaker
 
-
   cypress-run:
     runs-on: ubuntu-24.04
     steps:
