@@ -4,6 +4,7 @@
   "description": "POM FRAMEWORK",
   "main": "index.js",
   "scripts": {
+    "test-faker" :"npx cypress run --spec cypress/test/faker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
