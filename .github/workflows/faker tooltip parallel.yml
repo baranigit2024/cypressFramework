@@ -1,7 +1,7 @@
 name: Regression git statEnd-to-end tests
 on: push
 jobs:
-  faker cypress run:
+  cypress-run:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -13,7 +13,7 @@ jobs:
         with:
          command: npm run ttestFaker
 
-  ToolTip cypress run:
+  cypress-run:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
